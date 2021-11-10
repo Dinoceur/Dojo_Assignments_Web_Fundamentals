@@ -1,0 +1,22 @@
+h1{
+    color:aqua;
+    font-family: cursive;
+    font-weight: bold;
+    background-color: black;
+    padding: 20px;
+}
+h2{
+    color:white;
+    font-family: cursive;
+    background-color:rebeccapurple;
+    padding: 15px;
+    text-align: center;
+}
+h3{
+    color:darkblue;
+    font-family: cursive;
+    background-color:lightblue;
+    padding: 10px;
+    text-align: right;
+    text-decoration: underline;
+}
