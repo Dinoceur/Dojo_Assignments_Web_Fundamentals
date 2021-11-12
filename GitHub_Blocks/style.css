@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: grey;
+}
+.container{
+    width: 650px;
+    height: 640px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 20px;
+}
+.top-nav {
+    height: 200px;
+    background-color: cyan;
+    margin-bottom: 20px;
+}
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+img.cat {
+    height: 170px;
+    width: 170px;
+    padding: 20px;
+}
+.side-nav {
+    height: 200px;
+    background-color: pink;
+    margin-bottom: 20px;
+}
+.main {
+    height: 200px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.row {
+    display: flexbox;
+}
