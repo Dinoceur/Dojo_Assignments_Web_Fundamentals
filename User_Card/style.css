@@ -1,0 +1,68 @@
+.flex {
+    display: flex;
+}
+
+.container {
+    background-color: white;
+    height: 600px;
+    width: 1080px;
+    border: 2px solid rgb(24, 216, 216);
+    
+}
+
+.row {
+    background-color: rgb(24, 216, 216);
+    height: 150px;
+    width: 1080px;  
+    display: inline-block;
+}
+
+.image {
+    display: flex;
+}
+
+img.user {
+    height: 150px;
+    width: 150px;
+    padding-left: 80px;
+    padding-top: 80px;
+    
+}
+
+img.map {
+    height: 25px;
+    width: auto;
+    padding-left: 80px;
+}
+
+
+.profile-body{
+    padding-left: 80px;
+    align-content: center;
+}
+
+.location {
+    align-items: center;
+}
+
+h4 {
+    padding-left: 5px;
+}
+
+
+.info {
+    padding-left: 80px;
+    display: inline-block;
+}
+
+img.gear {
+    height: 15px;
+    width: auto;
+    padding-top: 22px;
+    padding-left: 80px;
+}
+
+a {
+    padding-top: 20px;
+    padding-left: 5px;
+}
