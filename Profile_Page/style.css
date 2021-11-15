@@ -1,12 +1,11 @@
 .container {
-    background-color: grey;
+    height: 1080px;
     padding-right: 140px;
     padding-left: 140px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .columns {
-    background-color: violet;
     height: 100%;
 }
 
@@ -71,13 +70,14 @@ a {
     background-color: white;
     height: 350px;
     border: 3px solid rgb(146, 81, 207);
+    align-items: center;
     display: inline-block;
-    
+    margin-right: 25px;
 }
 
 .Header {
     height: 100px;
-    width: 400px;  
+    width: 100%;  
     display: flex;
     background-color: rgb(146, 81, 207);
 }
@@ -105,7 +105,6 @@ img.map {
 
 .Bio {
     align-items: center;
-    display: inline-block;
     padding-left: 25px;
     padding-top: 50px;
     
@@ -119,13 +118,13 @@ h5 {
 
 p {
     display: inline-block;
-    color: black;
+    color: blue;
+    text-decoration-line: underline;
 }
 
 .Education {
     background-color: white;
     height: 200px;
-    width: 400px;
     border: 3px solid rgb(146, 81, 207);
     display: inline-block;
     margin-top: 40px;
@@ -133,10 +132,10 @@ p {
 }
 
 .Header2 {
-    height: 50px;
-    width: 400px;  
+    height: 50px;  
+    width: 100%;
     display: flex;
-    background-color: rgb(146, 81, 207);
+    background-color: grey;
 }
 
 
@@ -147,6 +146,7 @@ h4 {
 
 h3 {
     padding-left: 25px;
+    padding-right: 25px;
 }
 
 .col-1 {
@@ -154,3 +154,127 @@ h3 {
     height: 100%;
 }
 
+.Requests {
+    background-color: white;
+    height: 220px;
+    border: 3px solid rgb(146, 81, 207);
+    align-items: center;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+.ConnectionRequests {
+    height: 60px;  
+    width: 100%;
+    display: inline-block;
+    background-color: grey;
+}
+
+img.friend1 {
+    height: 30px;
+    width: 30px;  
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-right: 15px;
+    align-content: center;
+}
+
+img.friend2 {
+    height: 30px;
+    width: 30px;  
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 32px;
+}
+
+img.no {
+    height: 30px;
+    width: 30px;  
+    display: flex;
+    display: inline-block;
+    padding-right: 25px;
+}
+
+img.yes {
+    height: 30px;
+    width: 30px;  
+    display: flex;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+h2 {
+    display: inline-block;
+}
+
+.Connections {
+    background-color: white;
+    height: 380px;
+    border: 3px solid rgb(146, 81, 207);
+    align-items: center;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.YourConnections {
+    height: 60px;  
+    width: 100%;
+    display: inline-block;
+    background-color: grey;
+    
+}
+
+img.friend3 {
+    height: 30px;
+    width: 30px;  
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-right: 19px;
+    align-content: center;
+}
+
+img.friend4 {
+    height: 30px;
+    width: 30px;  
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 23px;
+}
+
+img.friend5 {
+    height: 30px;
+    width: 30px;  
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 26px;
+}
+
+img.friend6 {
+    height: 30px;
+    width: 30px;  
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.ViewMore {
+    height: 35px;  
+    width: 100%;
+    display: inline-block;
+    background-color: white;
+    border: 3px solid rgb(146, 81, 207);
+}
+
+p1 {
+    display: inline-block;
+    color: blue;
+    text-decoration-line: underline;
+    padding-left: 10px;
+    padding-top: 10px;
+}
