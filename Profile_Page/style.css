@@ -1,0 +1,156 @@
+.container {
+    background-color: grey;
+    padding-right: 140px;
+    padding-left: 140px;
+    padding-top: 50px;
+}
+
+.columns {
+    background-color: violet;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.nav-bar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+
+}
+
+.nav-title {
+    color: white;
+    font-weight: 100;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.nav-links {
+    display: inline-flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 300px;
+    padding-right: 250px;
+    
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.btn {
+    background-color: rgb(146, 81, 207);
+    color: white;
+    width: 80px;
+    height: 25px;
+    display: inline-flex;
+    box-shadow: 1px 1px white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.col-2 {
+    flex: 2;
+    height: 100%;
+}
+
+.Profile {
+    background-color: white;
+    height: 350px;
+    border: 3px solid rgb(146, 81, 207);
+    display: inline-block;
+    
+}
+
+.Header {
+    height: 100px;
+    width: 400px;  
+    display: flex;
+    background-color: rgb(146, 81, 207);
+}
+
+img.user {
+    height: 100px;
+    width: 100px;  
+    display: flex;
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
+img.gear {
+    height: 15px;
+    width: auto;
+    display: inline-block;
+
+}
+
+img.map {
+    height: 15px;
+    width: auto;
+    display: inline-block;
+}
+
+.Bio {
+    align-items: center;
+    display: inline-block;
+    padding-left: 25px;
+    padding-top: 50px;
+    
+
+}
+
+h5 {
+    display: inline-block;
+    margin: 8px;
+}
+
+p {
+    display: inline-block;
+    color: black;
+}
+
+.Education {
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    border: 3px solid rgb(146, 81, 207);
+    display: inline-block;
+    margin-top: 40px;
+    
+}
+
+.Header2 {
+    height: 50px;
+    width: 400px;  
+    display: flex;
+    background-color: rgb(146, 81, 207);
+}
+
+
+h4 {
+    color: rgb(99, 96, 96);
+    padding-left: 25px;
+}
+
+h3 {
+    padding-left: 25px;
+}
+
+.col-1 {
+    flex: 1;
+    height: 100%;
+}
+
