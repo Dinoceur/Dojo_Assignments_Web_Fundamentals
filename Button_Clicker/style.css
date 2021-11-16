@@ -1,0 +1,96 @@
+.flex {
+    display:flex;
+}
+
+.col2 {
+    flex: 2;
+}
+
+.col1 {
+    flex: 1;
+}
+
+.columns {
+    height: 1080px;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 30px;
+}
+
+.nav-bar {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 70px;
+}
+
+.ninja1 {
+    background-color: white;
+    height: 250px;
+    width: 400px;
+    border: 3px solid black;
+    align-items: center;
+    display: inline-flex;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.ninja2 {
+    background-color: white;
+    height: 250px;
+    width: 400px;
+    border: 3px solid black;
+    align-items: center;
+    display: inline-flex;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.ninja3 {
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    border: 3px solid black;
+    align-items: center;
+    display: inline-flex;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+button {
+    background-color: rgb(66, 66, 204);
+    color: white;
+    width: 70px;
+    height: 30px;
+    display: inline-flex;
+    box-shadow: 1px 1px black;
+    padding-left: 15px;
+    align-items: center;
+}
+
+button2 {
+    background-color: rgb(247, 215, 31);
+    color: black;
+    width: 70px;
+    height: 30px;
+    display: inline-flex;
+    box-shadow: 2px 2px black;
+    padding-left: 15px;
+    align-items: center; 
+}
+
+button3 {
+    background-color: rgb(247, 215, 31);
+    color: black;
+    width: 110px;
+    height: 30px;
+    display: inline-flex;
+    box-shadow: 2px 2px black;
+    padding-left: 15px;
+    align-items: center; 
+}
