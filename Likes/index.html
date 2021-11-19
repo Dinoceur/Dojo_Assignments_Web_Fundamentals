@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="nav">
+            <h1>Network</h1>
+        </div>
+        <h1 class="align">Your Feed</h1>
+        <div class="flex">
+            <div class="col-2">
+                <div class="profile align">
+                    <img src="Profilepic1.png" alt="profilepic" class="profilepic">
+                    <p><a href="#">Add an avatar</a></p>
+                    <h2>Augustin Kim</h2>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="feed">
+                    <div class="content">
+                        <h2>Janice Kim</h2>
+                        <div class="likes">
+                            <span id="like-1">10 like(s)</span>
+                            <button class="like-btn" onclick="like(0)">Like</button>
+                        </div>
+                    </div>
+                    <p>I just did my first stream on <a href="#">Twitch</a>.</p>
+                </div>
+                <div class="feed">
+                    <div class="content">
+                        <h2>Andrew Kim</h2>
+                        <div class="likes">
+                            <span id="like-2">10 like(s)</span>
+                            <button class="like-btn" onclick="like(1)">Like</button>
+                        </div>
+                    </div>
+                    <p>I just ranked up in Valorant.</p>
+                </div>
+                <div class="feed">
+                    <div class="content">
+                        <h2>Chloe Kim</h2>
+                        <div class="likes">
+                            <span id="like-3">10 like(s)</span>
+                            <button class="like-btn" onclick="like(2)">Like</button>
+                        </div>
+                    </div>
+                    <p>I just watched the new anime on <a href="#">Crunchyroll</a>. Anyone else see it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="jss.js"></script>
+</body>
+</html>
